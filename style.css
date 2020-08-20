@@ -1,0 +1,29 @@
+.background {
+	background-color: lightblue;
+}
+.tittle {
+	text-align: center;
+}
+.num {
+	text-align: center;
+	font-weight: bold;
+	font-size: 100px;
+}
+.text {
+	vertical-align: middle;
+	text-align: center;
+}
+button {
+	height: 125px;
+	width: 125px;
+	border-radius: 20px;
+	background-color: #D2E9FF;
+	font-size: 75px;
+}
+.reset {
+	height: 125px;
+	width: 125px;
+	border-radius: 20px;
+	background-color: #D2E9FF;
+	font-size: 75px;
+}

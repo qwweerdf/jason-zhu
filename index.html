@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Advanced Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="background">
+<h1 class="tittle">Mini Calculator</h1>
+<form>
+<div class="text">
+	<input type="text" placeholder="First Number" id="firstNum" style="height: 50px; font-size: 25px;">
+	<input type="text" size="2" id="calWay" style="height: 50px; font-size: 25px;">
+	<input type="text" placeholder="Second Number" id="secondNum" style="height: 50px; font-size: 25px;">
+	<label style="font-size: 25px;">=</label>
+	<input type="text" placeholder="Result" id="resultVal" style="height: 50px; font-size: 25px;">
+	<br>
+	<p>   </p>
+	<input type="reset" value="AC" class="reset">
+</div>
+</form>
+
+<div class="num">
+	<button onclick="num(1)">1</button>
+	<button onclick="num(2)">2</button>
+	<button onclick="num(3)">3</button>
+	<button onclick="way('+')" value="+">+</button>
+</div>
+
+<div class="num">
+	<button onclick="num(4)">4</button>
+	<button onclick="num(5)">5</button>
+	<button onclick="num(6)">6</button>
+	<button onclick="way('-')" value="-">-</button>
+</div>
+
+
+<div class="num">
+	<button onclick="num(7)">7</button>
+	<button onclick="num(8)">8</button>
+	<button onclick="num(9)">9</button>
+	<button onclick="way('*')" value="*">*</button>
+</div>
+
+
+<div class="num">
+	<button onclick="num('.')">.</button>
+	<button onclick="num(0)">0</button>	
+	<button onclick="num('-')">+/-</button>
+	<button onclick="way('/')" value="/">/</button>
+</div>
+<div class="num">
+	<button onclick="calculate()">=</button>
+</div>
+<br>
+<div class="text">
+	<a href="/Project/Mini Calculator/about.html">About</a>
+</div>
+<script src="mini calculator.js"></script>
+</body>
+</html>
